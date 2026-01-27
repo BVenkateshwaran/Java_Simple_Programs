@@ -1,5 +1,7 @@
 package Simple;
 
+//Swap 2 numbers without 3rd variable
+
 public class Swap {
 
 	public static void main(String[] args) {
