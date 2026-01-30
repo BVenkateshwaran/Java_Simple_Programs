@@ -36,3 +36,9 @@ public class CheckPrimeNum {
 	}
 
 }
+/*
+Output:
+Enter the num : 
+11
+11 is a Prime Number!
+*/
