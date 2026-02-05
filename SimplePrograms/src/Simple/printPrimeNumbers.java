@@ -1,5 +1,7 @@
 package Simple;
 
+// Print Prime Numbers between the given ranges
+
 import java.util.Scanner;
 
 public class printPrimeNumbers {
