@@ -18,3 +18,10 @@ public class Factorial {
 		System.out.println("Factorial of " + n + " = "+f);
 	}
 }
+
+/*
+Output:
+Enter num : 
+5
+Factorial of 5 = 120
+*/
