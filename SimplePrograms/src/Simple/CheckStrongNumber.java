@@ -33,7 +33,7 @@ public class CheckStrongNumber {
 		if(n1 == n2)
 			System.out.println(n1+" is a Strong Number!");
 		else
-			System.out.println(n1+"is not a Strong Number");
+			System.out.println(n1+" is not a Strong Number");
 	}
 
 }
