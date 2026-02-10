@@ -1,5 +1,7 @@
 package Simple;
+
 import java.util.Scanner;
+
 public class Fah_to_Cel {
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
