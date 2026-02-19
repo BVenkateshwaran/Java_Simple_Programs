@@ -1,6 +1,7 @@
 package Simple;
 import java.util.Scanner;
-public class IntegerBinaryToDecimal {
+public class IntegerBinaryToDecimal
+{
 	static Scanner sc = new Scanner(System.in);
 	
 	public static int convert(int n)
