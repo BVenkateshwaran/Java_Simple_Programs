@@ -1,5 +1,7 @@
 package Simple;
+
 import java.util.Scanner;
+
 public class IntegerBinaryToDecimal
 {
 	static Scanner sc = new Scanner(System.in);
@@ -18,8 +20,8 @@ public class IntegerBinaryToDecimal
 		return d;
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args)
+	{
 		System.out.println("Enter a binary number : ");
 		int n = sc.nextInt();
 		int d = convert(n);
