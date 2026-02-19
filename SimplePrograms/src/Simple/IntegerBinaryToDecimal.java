@@ -1,5 +1,4 @@
 package Simple;
-
 import java.util.Scanner;
 
 public class IntegerBinaryToDecimal
