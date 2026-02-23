@@ -24,6 +24,7 @@ public class IntegerBinaryToDecimal
 	{
 		System.out.println("Enter a binary number : ");
 		int n = sc.nextInt();
+		
 		int d = convert(n);
 		System.out.println("Binary "+n+" = "+d+" Decimal");
 	}
