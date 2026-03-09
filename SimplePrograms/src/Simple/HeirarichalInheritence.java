@@ -7,6 +7,7 @@ class Raja
 		System.out.println("I am the father of Surya and Pooja");
 	}
 }
+
 class Surya extends Raja
 {
 	public void son()
@@ -14,6 +15,7 @@ class Surya extends Raja
 		System.out.println("I am the son of Raja");
 	}
 }
+
 class Pooja extends Raja
 {
 	public void daughter()
@@ -21,6 +23,7 @@ class Pooja extends Raja
 		System.out.println("I am the daughter of Raja");
 	}
 }
+
 public class HeirarichalInheritence {
 
 	public static void main(String[] args) {
