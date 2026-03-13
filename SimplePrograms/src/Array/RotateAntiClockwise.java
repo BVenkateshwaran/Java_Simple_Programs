@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class RotateAntiClockwise
 {	
 	static Scanner sc = new Scanner(System.in);
-
+	
 	public static void main(String[] args)
 	{
 		int [] a = {1,5,3,2,4};
