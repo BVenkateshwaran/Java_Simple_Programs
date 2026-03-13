@@ -8,8 +8,8 @@ public class RotateAntiClockwise {
 	
 	static Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args)
+	{
 		int [] a = {1,5,3,2,4};
 		Arrays.sort(a);
 		System.out.println(Arrays.toString(a));
