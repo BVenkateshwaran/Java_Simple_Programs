@@ -7,6 +7,7 @@ public class String_Program {
 		String s = "Hello";
 		String s1 = new String("Hii");
 		String s2 = "Hello";
+		
 		System.out.println(s);
 		System.out.println(s1);
 		
