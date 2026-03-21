@@ -17,14 +17,15 @@ public class RotateClockwise {
 		System.out.println("Sorted Array : "+Arrays.toString(a));
 		System.out.println("Enter the number of times to rotate the array : ");
 		int k = sc.nextInt();
-		for (int i = 0; i < k; i++)
+		for(int i=1;i<=k;i++)
 		{
-			int l = a[a.length - 1];
-			for (int j = a.length-1; j>0; j--)
+			int last = a[a.length-1];
+			for(int j=a.length-1;j>=1;j--)
 			{
 				a[j] = a[j-1];
+				//System.out.println("A : "+Arrays.toString(a));
 			}
-			a[0] = l;
+			a[0] = last;
 		}
 		System.out.println(Arrays.toString(a));
 	}
