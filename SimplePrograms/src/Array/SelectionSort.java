@@ -10,15 +10,15 @@ public class SelectionSort
 		System.out.println("A : "+Arrays.toString(a));
 		for(int i=0;i<a.length-1;i++)
 		{
-			int min = i;
+			int s=i;
 			for(int j=i+1;j<a.length;j++)
 			{
-				if(a[j] < a[min])
-					min=j;
+				if(a[j]<a[s])
+					s=j;
 			}
-			int temp = a[min];
-			a[min]=a[i];
-			a[i]=temp;
+			int temp = a[s];
+			a[s] = a[i];
+			a[i] = temp;
 		}
 		System.out.println("A : "+Arrays.toString(a));
 	}
