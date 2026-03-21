@@ -15,7 +15,6 @@ public class RemoveDuplicatesByMaintainingOrder {
 			new_a.add(a[i]);
 		}
 		System.out.println(new_a);
-
 	}
 
 }
