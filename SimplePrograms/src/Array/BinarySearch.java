@@ -7,18 +7,17 @@ public class BinarySearch {
 	static Scanner sc = new Scanner(System.in);
 	public static boolean binary_search(int [] a, int key)
 	{
-		int l=0,h=a.length-1,mid;
-		while(l<h)
+		int l=0,h=a.length-1;
+		while(l<=h)
 		{
-			mid = (l+h)/2;
+			int mid=(l+h)/2;
 			if(key == mid)
-			{
-				System.out.println("Element is present!");
-			}
-			if(key < a[mid])
+				return true;
+			else if(key<mid)
 				h=mid;
-			if(key > a[mid])
+			else if(key > mid)
 				l=mid+1;
+			
 		}
 		return false;
 	}
