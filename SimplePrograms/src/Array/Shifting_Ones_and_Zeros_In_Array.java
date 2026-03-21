@@ -14,16 +14,12 @@ public class Shifting_Ones_and_Zeros_In_Array {
 				a[l] = a[r];
 				a[r] = temp;
 				l++;
-				r++;
-			}
-			if(a[l] == 1)
-			{
-				l++;
-			}
-			if(a[r] == 0)
-			{
 				r--;
 			}
+			if(a[l] == 1)
+				l++;
+			if(a[r] == 0)
+				r--;
 		}
 		System.out.println(Arrays.toString(a));
 	}
