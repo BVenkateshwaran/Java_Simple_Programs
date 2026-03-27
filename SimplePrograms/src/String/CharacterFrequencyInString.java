@@ -4,6 +4,7 @@ import java.util.*;
 public class CharacterFrequencyInString
 {
 	static Scanner sc = new Scanner(System.in);
+	
 	public static void solve(String s)
 	{
 		s = s.toLowerCase();
