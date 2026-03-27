@@ -40,8 +40,21 @@ public class CharacterFrequencyInString
 		System.out.println("---------------------------------------");
 		f.forEach((key,value) -> System.out.println(key+":"+value));
 	}
+	public static void solve3(String s)
+	{
+		Map<Character,Integer> m = new LinkedHashMap<Character, Integer>();
+		for(Character c: s.toCharArray())
+		{
+			m.put(c, m.getOrDefault(c, 0)+1);
+		}
+		
+		for(Map.Entry<Character, Integer> entry : m.entrySet())
+		{
+			System.out.println(entry.getKey()+" : "+entry.getValue());
+		}
+	}
 	public static void main(String[] args) {
 		String s = "hello";
-		solve2(s);
+		solve3(s);
 	}
 }
