@@ -12,6 +12,7 @@ public class RotateClockwise {
 	{
 		// TODO Auto-generated method stub
 		int [] a = {1,5,2,4,3};
+		
 		System.out.println(a[a.length - 1]);
 		System.out.println(Arrays.toString(a));
 		Arrays.sort(a);
