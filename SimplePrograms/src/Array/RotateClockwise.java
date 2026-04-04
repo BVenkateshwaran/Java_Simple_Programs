@@ -8,7 +8,8 @@ public class RotateClockwise {
 	
 	static Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub
 		int [] a = {1,5,2,4,3};
 		System.out.println(a[a.length - 1]);
