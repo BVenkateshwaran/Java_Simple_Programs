@@ -24,8 +24,8 @@ class Pooja extends Raja
 	}
 }
 
-public class HeirarichalInheritence {
-
+public class HeirarichalInheritence
+{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Surya s = new Surya();
