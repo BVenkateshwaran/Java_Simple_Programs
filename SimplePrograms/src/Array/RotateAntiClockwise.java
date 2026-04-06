@@ -13,6 +13,7 @@ public class RotateAntiClockwise
 		int [] a = {1,2,3,4,5};
 		
 		Arrays.sort(a);
+		
 		System.out.println(Arrays.toString(a));
 		System.out.println("Enter the number of times to rotate : ");
 		int k = sc.nextInt();
