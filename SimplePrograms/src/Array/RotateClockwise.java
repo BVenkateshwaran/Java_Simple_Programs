@@ -15,6 +15,7 @@ public class RotateClockwise {
 		
 		System.out.println(a[a.length - 1]);
 		System.out.println(Arrays.toString(a));
+		
 		Arrays.sort(a);
 		System.out.println("Sorted Array : "+Arrays.toString(a));
 		System.out.println("Enter the number of times to rotate the array : ");
