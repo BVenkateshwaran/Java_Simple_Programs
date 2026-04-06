@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class DecimalToBinary
 {
 	static Scanner sc = new Scanner(System.in);
-	
 	public static int decimalToBinary(int d)
 	{
 		int b [] = new int [100];
