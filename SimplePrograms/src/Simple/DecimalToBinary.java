@@ -7,6 +7,7 @@ public class DecimalToBinary
 	public static int decimalToBinary(int d)
 	{
 		int b [] = new int [100];
+		
 		int binary = 0;
 		int i=0;
 		
