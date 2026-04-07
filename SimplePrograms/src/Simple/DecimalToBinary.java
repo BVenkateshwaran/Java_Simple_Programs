@@ -32,6 +32,7 @@ public class DecimalToBinary
 	public static void main(String[] args)
 	{
 		System.out.println("Enter a decimal number : ");
+		
 		int d = sc.nextInt();
 		int b = decimalToBinary(d);
 		System.out.println("Decimal "+d+" : "+b+" Binary");
