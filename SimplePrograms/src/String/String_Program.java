@@ -2,7 +2,8 @@ package String;
 
 public class String_Program {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub
 		String s = "Hello";
 		String s1 = new String("Hii");
