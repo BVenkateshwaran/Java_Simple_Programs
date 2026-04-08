@@ -2,8 +2,8 @@ package Simple;
 
 import java.util.Scanner;
 
-public class CheckArmstrongNumber {
-	
+public class CheckArmstrongNumber
+{	
 	static Scanner sc = new Scanner(System.in);
 	
 	public static int countDigits(int n)
