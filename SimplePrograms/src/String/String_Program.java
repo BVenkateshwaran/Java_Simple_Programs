@@ -6,6 +6,7 @@ public class String_Program {
 	{
 		// TODO Auto-generated method stub
 		String s = "Hello";
+		
 		String s1 = new String("Hii");
 		String s2 = "Hello";
 		
