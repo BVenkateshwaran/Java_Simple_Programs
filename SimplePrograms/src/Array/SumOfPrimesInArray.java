@@ -2,8 +2,8 @@ package Array;
 
 import java.util.Scanner;
 
-public class SumOfPrimesInArray {
-	
+public class SumOfPrimesInArray
+{	
 	static Scanner sc = new Scanner(System.in);
 	
 	public static boolean check(int n)
