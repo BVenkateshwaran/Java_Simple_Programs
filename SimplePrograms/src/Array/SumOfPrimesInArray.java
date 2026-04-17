@@ -35,6 +35,7 @@ public class SumOfPrimesInArray
 				sum = sum+a[i];
 			}
 		}
+		
 		System.out.println(sum);
 	}
 
