@@ -25,6 +25,7 @@ public class SumOfPrimesInArray
 	public static void main(String[] args)
 	{
 		int [] a = {4,5,2,6,8,7,11};
+		
 		int sum=0;
 		
 		for(int i=0;i<a.length;i++)
