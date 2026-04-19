@@ -8,7 +8,9 @@ public class SumOfPrimesInArray
 	public static boolean check(int n)
 	{
 		if(n<=1)
+		{
 			return false;
+		}
 		else
 		{
 			for(int i=2;i<n;i++)
@@ -25,9 +27,7 @@ public class SumOfPrimesInArray
 	public static void main(String[] args)
 	{
 		int [] a = {4,5,2,6,8,7,11};
-		
 		int sum=0;
-		
 		for(int i=0;i<a.length;i++)
 		{
 			if(check(a[i]))
@@ -36,7 +36,6 @@ public class SumOfPrimesInArray
 				sum = sum+a[i];
 			}
 		}
-		
 		System.out.println(sum);
 	}
 
