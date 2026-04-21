@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SumOfPrimesInArray
 {	
 	static Scanner sc = new Scanner(System.in);
+	
 	public static boolean check(int n)
 	{
 		if(n<=1)
