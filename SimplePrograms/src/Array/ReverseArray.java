@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ReverseArray
 {
 	static Scanner sc = new Scanner(System.in);
+	
 	public static void main(String[] args)
 	{
 		System.out.println("Enter size : ");
