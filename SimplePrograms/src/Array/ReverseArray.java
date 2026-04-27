@@ -13,6 +13,7 @@ public class ReverseArray
 		
 		int [] a = new int [n];
 		//System.out.println(a.length);
+		
 		for(int i=0;i<a.length;i++)
 		{
 			System.out.println("Enter element a["+i+"]:");
