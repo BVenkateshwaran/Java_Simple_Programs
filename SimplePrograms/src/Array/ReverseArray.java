@@ -10,6 +10,7 @@ public class ReverseArray
 	{
 		System.out.println("Enter size : ");
 		int n = sc.nextInt();
+		
 		int [] a = new int [n];
 		//System.out.println(a.length);
 		for(int i=0;i<a.length;i++)
