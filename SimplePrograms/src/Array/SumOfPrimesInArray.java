@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class SumOfPrimesInArray
 {	
 	static Scanner sc = new Scanner(System.in);
-	
 	public static boolean check(int n)
 	{
 		if(n<=1)
@@ -26,7 +25,6 @@ public class SumOfPrimesInArray
 	{
 		int [] a = {4,5,2,6,8,7,11};
 		int sum=0;
-		
 		for(int i=0;i<a.length;i++)
 		{
 			if(check(a[i]))
@@ -35,6 +33,7 @@ public class SumOfPrimesInArray
 				sum = sum+a[i];
 			}
 		}
+		
 		System.out.println(sum);
 	}
 
