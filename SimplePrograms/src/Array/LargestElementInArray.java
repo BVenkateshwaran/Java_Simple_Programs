@@ -12,7 +12,6 @@ public class LargestElementInArray
 				max = a[i];
 			}
 		}
-		System.out.println("The Largest Element in an Array : " + max);
+		System.out.println("The Largest Element in Array : " + max);
 	}
-
 }
