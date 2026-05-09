@@ -2,7 +2,8 @@ package Array;
 
 public class SecondLargestElementInArray
 {
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub
 		int [] a = {1,9,2,10,8,3,11,7,6,4,12,5,10};
 		int max = Integer.MIN_VALUE;
@@ -22,7 +23,5 @@ public class SecondLargestElementInArray
 		System.out.println("Largest Element in Array : "+max);
 		
 		System.out.println("Second Largest Element in Array : "+second_max);
-
 	}
-
 }
