@@ -1,7 +1,7 @@
 package Array;
 
-public class LeetCode_BuildingSunLight {
-
+public class LeetCode_BuildingSunLight
+{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a [] = {4,2,5,3,6,5,3};
