@@ -20,7 +20,7 @@ public class SecondLargestElementInArray
 				second_max = a[i];
 			}
 		}
-		System.out.println("Largest Element in Array : " +max);
+		System.out.println("Largest Element in Array : " + max);
 		System.out.println("Second Largest Element in Array : "+second_max);
 	}
 }
