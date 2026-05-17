@@ -6,7 +6,8 @@ public class LeetCode_BuildingSunLight
 	{
 		int a [] = {4,2,5,3,6,5,3};
 		
-		int max = Integer.MIN_VALUE,count = 0;
+		int max = Integer.MIN_VALUE;
+		int count = 0;
 		for(int i=0; i<a.length;i++)
 		{
 			if(a[i] > max)
