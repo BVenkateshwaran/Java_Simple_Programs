@@ -4,7 +4,8 @@ package Simple;
 
 public class Swap {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub
 		int a,b;
 		
@@ -20,8 +21,5 @@ public class Swap {
 		
 		System.out.println("a = "+a);
 		System.out.println("b = "+b);
-		
-
 	}
-
 }
