@@ -13,7 +13,7 @@ public class Swap {
 		b = 20;
 		
 		System.out.println("a = " + a);
-		System.out.println("b = "+ b);
+		System.out.println("b = " + b);
 		
 		a = a+b;
 		b = a-b;
