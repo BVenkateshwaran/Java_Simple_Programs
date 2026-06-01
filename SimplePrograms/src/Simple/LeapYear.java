@@ -4,7 +4,8 @@ package Simple;
 
 import java.util.Scanner;
 
-public class LeapYear {
+public class LeapYear
+{
 
 	static Scanner sc = new Scanner(System.in);
 
