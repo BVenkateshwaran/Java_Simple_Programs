@@ -10,7 +10,7 @@ public class printPrimeNumbers {
 	
 	public static boolean isPrime(int n)
 	{
-		if(n<=1)
+		if(n <=1)
 			return false;
 		else
 		{
