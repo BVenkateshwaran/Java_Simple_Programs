@@ -14,7 +14,7 @@ public class printPrimeNumbers {
 			return false;
 		else
 		{
-			for(int j = 2;j<n;j++)
+			for(int j = 2;j <n;j++)
 			{
 				if(n%j == 0)
 				{
