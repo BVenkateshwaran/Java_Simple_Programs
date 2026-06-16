@@ -5,7 +5,8 @@ public class PrintFibonacciSeries
 {
 	static Scanner sc = new Scanner(System.in);
 	
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub
 		int first = 1,second = 1,third = 0;
 		
