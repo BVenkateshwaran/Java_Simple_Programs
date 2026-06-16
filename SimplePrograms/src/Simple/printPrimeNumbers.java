@@ -4,8 +4,8 @@ package Simple;
 
 import java.util.Scanner;
 
-public class printPrimeNumbers {
-	
+public class printPrimeNumbers
+{	
 	static Scanner sc = new Scanner(System.in);
 	
 	public static boolean isPrime(int n)
