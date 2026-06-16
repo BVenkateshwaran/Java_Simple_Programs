@@ -13,7 +13,7 @@ public class PrintFibonacciSeries
 		System.out.println("Enter the number of terms you wanted : ");
 		int n = sc.nextInt();
 		
-		System.out.print(first+" ");
+		System.out.print(first +" ");
 		System.out.print(second+" ");
 		
 		for(int i=1;i<=n-2;i++)
