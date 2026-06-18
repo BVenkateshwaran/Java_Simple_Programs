@@ -14,7 +14,7 @@ public class PrintFibonacciSeries
 		int n = sc.nextInt();
 		
 		System.out.print(first + " ");
-		System.out.print(second+" ");
+		System.out.print(second +" ");
 		
 		for(int i=1;i<=n-2;i++)
 		{
