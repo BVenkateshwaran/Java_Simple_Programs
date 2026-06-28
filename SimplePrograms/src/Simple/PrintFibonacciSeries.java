@@ -19,7 +19,7 @@ public class PrintFibonacciSeries
 		for(int i = 1; i <= n-2; i++)
 		{
 			third = first + second;
-			System.out.print(third+" ");
+			System.out.print(third +" ");
 			first = second;
 			second = third;
 		}
