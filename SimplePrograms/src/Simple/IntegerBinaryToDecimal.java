@@ -10,7 +10,7 @@ public class IntegerBinaryToDecimal
 	{
 		int d = 0;
 		int i = 0, r = 0;
-		while(n !=0)
+		while(n != 0)
 		{
 			r = n%10;
 			n = n/10;
