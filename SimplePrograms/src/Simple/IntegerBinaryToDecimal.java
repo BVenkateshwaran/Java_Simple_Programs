@@ -12,7 +12,7 @@ public class IntegerBinaryToDecimal
 		int i = 0, r = 0;
 		while(n != 0)
 		{
-			r = n%10;
+			r = n %10;
 			n = n/10;
 			d += r * Math.pow(2, i);
 			i++;
