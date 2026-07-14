@@ -14,7 +14,7 @@ public class IntegerBinaryToDecimal
 		{
 			r = n % 10;
 			n = n / 10;
-			d += r * Math.pow(2, i);
+			d += r * Math.pow(2 , i);
 			i++;
 		}
 		return d;
