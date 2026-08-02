@@ -12,7 +12,7 @@ public class HappyNumber
 		System.out.println("Enter number to check : ");
 		int n = sc.nextInt();
 		int temp = n,l = 0,sum = 0;
-		while(sum!=1)
+		while(sum !=1)
 		{	
 			sum=0;
 			while(temp>0)
