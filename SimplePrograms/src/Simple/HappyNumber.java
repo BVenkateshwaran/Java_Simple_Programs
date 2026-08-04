@@ -14,7 +14,7 @@ public class HappyNumber
 		int temp = n,l = 0,sum = 0;
 		while(sum != 1)
 		{	
-			sum=0;
+			sum =0;
 			while(temp>0)
 			{
 				l=temp%10;
