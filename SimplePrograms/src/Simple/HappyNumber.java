@@ -17,7 +17,7 @@ public class HappyNumber
 			sum = 0;
 			while(temp > 0)
 			{
-				l =temp%10;
+				l = temp%10;
 				sum = sum + (l*l);
 				temp=temp/10;
 			}
