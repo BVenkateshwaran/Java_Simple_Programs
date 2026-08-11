@@ -18,7 +18,7 @@ public class HappyNumber
 			while(temp > 0)
 			{
 				l = temp % 10;
-				sum = sum + (l*l);
+				sum = sum + (l *l);
 				temp=temp/10;
 			}
 			System.out.println(sum);
