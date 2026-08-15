@@ -19,7 +19,7 @@ public class HappyNumber
 			{
 				l = temp % 10;
 				sum = sum + (l * l);
-				temp = temp/10;
+				temp = temp /10;
 			}
 			System.out.println(sum);
 			temp=sum;
