@@ -22,7 +22,7 @@ public class HappyNumber
 				temp = temp / 10;
 			}
 			System.out.println(sum);
-			temp=sum;
+			temp =sum;
 		}
 		if(sum == 1)
 			System.out.println(n+" is a Happy Number");
