@@ -25,7 +25,7 @@ public class HappyNumber
 			temp = sum;
 		}
 		if(sum == 1)
-			System.out.println(n+" is a Happy Number");
+			System.out.println(n +" is a Happy Number");
 		else
 			System.out.println(n+" is not a Happy Number");
 
