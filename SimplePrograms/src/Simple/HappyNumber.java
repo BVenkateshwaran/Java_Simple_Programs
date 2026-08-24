@@ -10,6 +10,7 @@ public class HappyNumber
 	{
 		// TODO Auto-generated method stub
 		System.out.println("Enter number to check : ");
+		
 		int n = sc.nextInt();
 		int temp = n,l = 0,sum = 0;
 		
