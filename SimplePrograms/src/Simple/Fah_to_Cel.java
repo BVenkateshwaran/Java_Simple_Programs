@@ -11,7 +11,7 @@ public class Fah_to_Cel
 		// TODO Auto-generated method stub
 		System.out.println("Enter temperature in Fahrenheit : ");
 		double fah = sc.nextDouble();
-		double cel = (fah -32) * (5.0/9.0);
+		double cel = (fah - 32) * (5.0/9.0);
 		System.out.println(fah+" Fahrenheit = "+cel+" Celsius");
 	}
 
