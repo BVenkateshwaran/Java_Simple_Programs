@@ -2,8 +2,8 @@ package Simple;
 
 import java.util.Scanner;
 
-public class Factorial {
-	
+public class Factorial 
+{	
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args)
