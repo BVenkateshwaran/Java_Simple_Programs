@@ -13,7 +13,7 @@ public class Factorial
 		int n = sc.nextInt();
 		for(int i=n;i>0;i--)
 		{
-			f = f*i;
+			f = f *i;
 		}
 		System.out.println("Factorial of " + n + " = " + f);
 	}
