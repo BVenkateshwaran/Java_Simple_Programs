@@ -11,6 +11,7 @@ public class Factorial
 		System.out.println("Enter num : ");
 		int f = 1;
 		int n = sc.nextInt();
+		
 		for(int i = n; i > 0; i--)
 		{
 			f = f * i;
