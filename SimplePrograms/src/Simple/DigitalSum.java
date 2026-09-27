@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 // Digital Sum - i/p:1234, o/p:10(1+2+3+4)
 
-public class DigitalSum {
+public class DigitalSum
+{
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
