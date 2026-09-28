@@ -8,7 +8,8 @@ public class DigitalSum
 {
 	static Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub
 		int sum = 0,l;
 		System.out.println("Enter num : ");
