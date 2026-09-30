@@ -14,7 +14,7 @@ public class DigitalSum
 		int sum = 0,l;
 		System.out.println("Enter num : ");
 		int num = sc.nextInt();
-		while(num !=0)
+		while(num != 0)
 		{
 			l = num%10;
 			sum = sum+l;
