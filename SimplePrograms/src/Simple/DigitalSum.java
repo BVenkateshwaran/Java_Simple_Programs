@@ -18,7 +18,7 @@ public class DigitalSum
 		{
 			l = num % 10;
 			sum = sum + l;
-			num = num /10;
+			num = num / 10;
 		}
 		System.out.println("The sum of the digits : "+sum);
 	}
