@@ -9,7 +9,7 @@ public class DecimalToBinary
 		int b [] = new int [100];
 		
 		int binary = 0;
-		int i=0;
+		int i =0;
 		
 		while(d!=0)
 		{
