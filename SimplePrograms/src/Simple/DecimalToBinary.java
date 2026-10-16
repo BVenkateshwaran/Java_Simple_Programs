@@ -13,7 +13,7 @@ public class DecimalToBinary
 		
 		while( d != 0)
 		{
-			b[i] = d %2;
+			b[i] = d % 2;
 			d = d/2;
 			i++;
 		}
