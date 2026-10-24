@@ -18,7 +18,7 @@ public class DecimalToBinary
 			i++;
 		}
 		
-		for(int j = i - 1; j >= 0;j--)
+		for(int j = i - 1; j >= 0; j--)
 		{
 //			System.out.print(b[j]);
 			binary = binary*10;
