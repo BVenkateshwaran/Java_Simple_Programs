@@ -35,7 +35,7 @@ public class DecimalToBinary
 		
 		int d = sc.nextInt();
 		int b = decimalToBinary(d);
-		System.out.println("Decimal " + d+" : "+b+" Binary");
+		System.out.println("Decimal " + d +" : "+b+" Binary");
 	}
 
 }
