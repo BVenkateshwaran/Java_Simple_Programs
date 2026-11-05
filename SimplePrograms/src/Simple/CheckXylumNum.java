@@ -13,7 +13,7 @@ public class CheckXylumNum {
 		System.out.println("Enter num : ");
 		int n = sc.nextInt();
 		int s1 = 0,s2 = 0,n1 = n;
-		s1 = n %10;
+		s1 = n % 10;
 		n = n/10;
 		while (n>9)
 		{
