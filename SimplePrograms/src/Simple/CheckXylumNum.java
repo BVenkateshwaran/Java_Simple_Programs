@@ -15,7 +15,7 @@ public class CheckXylumNum {
 		int s1 = 0,s2 = 0,n1 = n;
 		s1 = n % 10;
 		n = n / 10;
-		while (n >9)
+		while (n > 9)
 		{
 			s2 = s2+n%10;
 			n = n/10;
