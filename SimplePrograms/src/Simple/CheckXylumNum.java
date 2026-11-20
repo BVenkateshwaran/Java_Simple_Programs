@@ -23,7 +23,7 @@ public class CheckXylumNum {
 		s1 = s1 + n;
 		if(s1 == s2)
 		{
-			System.out.println(n1 +" is a Xylum Number");
+			System.out.println(n1 + " is a Xylum Number");
 		}
 		else
 		{
