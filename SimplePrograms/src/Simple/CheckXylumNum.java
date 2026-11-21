@@ -27,7 +27,7 @@ public class CheckXylumNum {
 		}
 		else
 		{
-			System.out.println(n1+" is a Phloem Number");
+			System.out.println(n1 +" is a Phloem Number");
 		}
 	}
 }
