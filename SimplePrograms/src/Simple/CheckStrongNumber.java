@@ -8,7 +8,7 @@ public class CheckStrongNumber {
 	public static int findFactorial(int num)
 	{
 		int fact = 1;
-		for(int i = num; i>0;i--)
+		for(int i = num; i >0;i--)
 		{
 			fact = fact*i;
 		}
